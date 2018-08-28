@@ -45,7 +45,7 @@ The repo you cloned comes with a User model and a router file already made for y
 
 Add a new route to your `passportRouter.js` file with the path `/signup` and point it to your `views/passport/signup.hbs` file.
 
-Now, in that file, add a form that makes a POST request to `/signup`, with a field for `username` and `password`.
+Now, in that file, add a form that makes a POST request to `/signup`, with a field for `email` and `password`.
 
 Finally, add a post route to your `passportRoute` to receive the data from the signup form and create a new user with the data.
 
